@@ -14,6 +14,23 @@
 		D4D4DDF02B2467F0003D040F /* ShareSpace_personal_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DDEF2B2467F0003D040F /* ShareSpace_personal_projectTests.swift */; };
 		D4D4DDFA2B2467F0003D040F /* ShareSpace_personal_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DDF92B2467F0003D040F /* ShareSpace_personal_projectUITests.swift */; };
 		D4D4DDFC2B2467F0003D040F /* ShareSpace_personal_projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DDFB2B2467F0003D040F /* ShareSpace_personal_projectUITestsLaunchTests.swift */; };
+		D4D4DE0C2B24690C003D040F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DE0B2B24690B003D040F /* DetailView.swift */; };
+		D4D4DE0F2B246941003D040F /* SignInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DE0E2B246941003D040F /* SignInPage.swift */; };
+		D4D4DE142B246AE5003D040F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D4D4DE132B246AE5003D040F /* FirebaseAnalytics */; };
+		D4D4DE162B246AE5003D040F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D4D4DE152B246AE5003D040F /* FirebaseAuth */; };
+		D4D4DE182B246C27003D040F /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DE172B246C27003D040F /* PlaceDetailView.swift */; };
+		D4D4DE1A2B246C73003D040F /* PlacesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DE192B246C73003D040F /* PlacesListView.swift */; };
+		D4D4DE1C2B246C8E003D040F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DE1B2B246C8E003D040F /* MapView.swift */; };
+		D4D4DE1E2B246CE2003D040F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DE1D2B246CE2003D040F /* AppDelegate.swift */; };
+		D4D4DE222B246D1A003D040F /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DE212B246D1A003D040F /* LocationModel.swift */; };
+		D4D4DE242B246D3B003D040F /* MapViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DE232B246D3B003D040F /* MapViewContainer.swift */; };
+		D4D4DE262B246D4C003D040F /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DE252B246D4C003D040F /* PlacesViewModel.swift */; };
+		D4D4DE282B246D70003D040F /* SignIn_withGoogle_vm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DE272B246D70003D040F /* SignIn_withGoogle_vm.swift */; };
+		D4D4DE2A2B246E98003D040F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4D4DE292B246E98003D040F /* GoogleService-Info.plist */; };
+		D4D4DE2E2B247791003D040F /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = D4D4DE2D2B247791003D040F /* GoogleSignIn */; };
+		D4D4DE302B247791003D040F /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D4D4DE2F2B247791003D040F /* GoogleSignInSwift */; };
+		D4D4DE322B2478CE003D040F /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DE312B2478CE003D040F /* Application.swift */; };
+		D4D4DE342B247BF1003D040F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4DE332B247BF1003D040F /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +61,20 @@
 		D4D4DDF52B2467F0003D040F /* ShareSpace-personal projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShareSpace-personal projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D4DDF92B2467F0003D040F /* ShareSpace_personal_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSpace_personal_projectUITests.swift; sourceTree = "<group>"; };
 		D4D4DDFB2B2467F0003D040F /* ShareSpace_personal_projectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSpace_personal_projectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4D4DE0B2B24690B003D040F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D4D4DE0E2B246941003D040F /* SignInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPage.swift; sourceTree = "<group>"; };
+		D4D4DE172B246C27003D040F /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		D4D4DE192B246C73003D040F /* PlacesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListView.swift; sourceTree = "<group>"; };
+		D4D4DE1B2B246C8E003D040F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D4D4DE1D2B246CE2003D040F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4D4DE212B246D1A003D040F /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		D4D4DE232B246D3B003D040F /* MapViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewContainer.swift; sourceTree = "<group>"; };
+		D4D4DE252B246D4C003D040F /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewModel.swift; sourceTree = "<group>"; };
+		D4D4DE272B246D70003D040F /* SignIn_withGoogle_vm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn_withGoogle_vm.swift; sourceTree = "<group>"; };
+		D4D4DE292B246E98003D040F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D4D4DE2B2B24717B003D040F /* ShareSpace-personal-project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ShareSpace-personal-project-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D4D4DE312B2478CE003D040F /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		D4D4DE332B247BF1003D040F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D4DE142B246AE5003D040F /* FirebaseAnalytics in Frameworks */,
+				D4D4DE162B246AE5003D040F /* FirebaseAuth in Frameworks */,
+				D4D4DE2E2B247791003D040F /* GoogleSignIn in Frameworks */,
+				D4D4DE302B247791003D040F /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +129,16 @@
 		D4D4DDDD2B2467ED003D040F /* ShareSpace-personal project */ = {
 			isa = PBXGroup;
 			children = (
+				D4D4DE2B2B24717B003D040F /* ShareSpace-personal-project-Info.plist */,
+				D4D4DE292B246E98003D040F /* GoogleService-Info.plist */,
+				D4D4DE0A2B2468EA003D040F /* ViewModel */,
+				D4D4DE092B2468E5003D040F /* Model */,
+				D4D4DE082B2468DE003D040F /* View */,
 				D4D4DDDE2B2467ED003D040F /* ShareSpace_personal_projectApp.swift */,
-				D4D4DDE02B2467ED003D040F /* ContentView.swift */,
 				D4D4DDE22B2467F0003D040F /* Assets.xcassets */,
 				D4D4DDE42B2467F0003D040F /* Preview Content */,
+				D4D4DE1D2B246CE2003D040F /* AppDelegate.swift */,
+				D4D4DE312B2478CE003D040F /* Application.swift */,
 			);
 			path = "ShareSpace-personal project";
 			sourceTree = "<group>";
@@ -127,6 +168,38 @@
 			path = "ShareSpace-personal projectUITests";
 			sourceTree = "<group>";
 		};
+		D4D4DE082B2468DE003D040F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4D4DE0B2B24690B003D040F /* DetailView.swift */,
+				D4D4DE0E2B246941003D040F /* SignInPage.swift */,
+				D4D4DE172B246C27003D040F /* PlaceDetailView.swift */,
+				D4D4DDE02B2467ED003D040F /* ContentView.swift */,
+				D4D4DE192B246C73003D040F /* PlacesListView.swift */,
+				D4D4DE1B2B246C8E003D040F /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4D4DE092B2468E5003D040F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4D4DE212B246D1A003D040F /* LocationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4D4DE0A2B2468EA003D040F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D4D4DE232B246D3B003D040F /* MapViewContainer.swift */,
+				D4D4DE252B246D4C003D040F /* PlacesViewModel.swift */,
+				D4D4DE272B246D70003D040F /* SignIn_withGoogle_vm.swift */,
+				D4D4DE332B247BF1003D040F /* LocationManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +216,12 @@
 			dependencies = (
 			);
 			name = "ShareSpace-personal project";
+			packageProductDependencies = (
+				D4D4DE132B246AE5003D040F /* FirebaseAnalytics */,
+				D4D4DE152B246AE5003D040F /* FirebaseAuth */,
+				D4D4DE2D2B247791003D040F /* GoogleSignIn */,
+				D4D4DE2F2B247791003D040F /* GoogleSignInSwift */,
+			);
 			productName = "ShareSpace-personal project";
 			productReference = D4D4DDDB2B2467ED003D040F /* ShareSpace-personal project.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +294,10 @@
 				Base,
 			);
 			mainGroup = D4D4DDD22B2467ED003D040F;
+			packageReferences = (
+				D4D4DE122B246AE5003D040F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D4D4DE2C2B247790003D040F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = D4D4DDDC2B2467ED003D040F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4D4DDE62B2467F0003D040F /* Preview Assets.xcassets in Resources */,
+				D4D4DE2A2B246E98003D040F /* GoogleService-Info.plist in Resources */,
 				D4D4DDE32B2467F0003D040F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +341,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D4DE262B246D4C003D040F /* PlacesViewModel.swift in Sources */,
+				D4D4DE1E2B246CE2003D040F /* AppDelegate.swift in Sources */,
+				D4D4DE342B247BF1003D040F /* LocationManager.swift in Sources */,
+				D4D4DE1C2B246C8E003D040F /* MapView.swift in Sources */,
+				D4D4DE182B246C27003D040F /* PlaceDetailView.swift in Sources */,
+				D4D4DE0F2B246941003D040F /* SignInPage.swift in Sources */,
 				D4D4DDE12B2467ED003D040F /* ContentView.swift in Sources */,
+				D4D4DE0C2B24690C003D040F /* DetailView.swift in Sources */,
+				D4D4DE1A2B246C73003D040F /* PlacesListView.swift in Sources */,
+				D4D4DE322B2478CE003D040F /* Application.swift in Sources */,
+				D4D4DE242B246D3B003D040F /* MapViewContainer.swift in Sources */,
 				D4D4DDDF2B2467ED003D040F /* ShareSpace_personal_projectApp.swift in Sources */,
+				D4D4DE222B246D1A003D040F /* LocationModel.swift in Sources */,
+				D4D4DE282B246D70003D040F /* SignIn_withGoogle_vm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +520,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ShareSpace-personal project/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ShareSpace-personal-project-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to personalize your experience";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +549,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ShareSpace-personal project/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ShareSpace-personal-project-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to personalize your experience";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -582,6 +680,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D4D4DE122B246AE5003D040F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.0;
+			};
+		};
+		D4D4DE2C2B247790003D040F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D4D4DE132B246AE5003D040F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4D4DE122B246AE5003D040F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D4D4DE152B246AE5003D040F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4D4DE122B246AE5003D040F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D4D4DE2D2B247791003D040F /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4D4DE2C2B247790003D040F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		D4D4DE2F2B247791003D040F /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4D4DE2C2B247790003D040F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D4D4DDD32B2467ED003D040F /* Project object */;
 }

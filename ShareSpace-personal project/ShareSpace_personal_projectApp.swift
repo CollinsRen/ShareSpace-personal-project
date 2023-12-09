@@ -6,9 +6,16 @@
 //
 
 import SwiftUI
+import FirebaseCore
+import FirebaseAuth
+import MapKit
+import GoogleSignIn
+import Firebase
+import GoogleSignInSwift
 
 @main
 struct ShareSpace_personal_projectApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
             ContentView()
